@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    overflow: scroll;
+    scrollbar-width: none;
+    
+  }
+  .mainbox{
+    border: 2px solid black;
+    width: 50%;
+    margin-left: 42vh;
+    margin-top: 10vh;
+    overflow-x: scroll;
+    background-color: rgb(113, 193, 243);
+  }
+  .listbox{
+    
+    width: 40%;
+    padding: 10px;
+    margin-left: 20vh;
+    overflow: scroll;
+  }
+  .mapbox{
+    border-radius: 5px;
+    width: 25%vw;
+    height: 4vh;
+    text-align: left;
+    padding-left: 6px;
+    padding-top: 5px;
+    margin: 10px;
+    background-color: rgb(245, 188, 196);
+  }
+  .buttonclear{
+    margin-left: 10px;
+  }
+  
